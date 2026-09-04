@@ -62,4 +62,21 @@
             &::after { width: 100%; }
         }
     }
+
+    &__lang {
+        background: transparent;
+        border: 1px solid rgba($color-primary, 0.4);
+        color: $color-muted;
+        font-size: 0.85rem;
+        padding: 0.3rem 0.7rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: color 0.3s, border-color 0.3s;
+        font-family: $font-sans;
+
+        &:hover {
+            color: $color-text;
+            border-color: $color-secondary;
+        }
+    }
 }

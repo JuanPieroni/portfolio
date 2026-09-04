@@ -1,0 +1,50 @@
+{
+    "nav": {
+        "about":    "About",
+        "skills":   "Skills",
+        "projects": "Projects",
+        "contact":  "Contact"
+    },
+    "hero": {
+        "greeting":    "Hi, I'm",
+        "title":       "FullStack Developer & AI Enthusiast",
+        "description": "Building digital products that scale — from frontend to backend, with a bit of AI magic.",
+        "cta_projects": "View projects",
+        "cta_contact":  "Contact me"
+    },
+    "about": {
+        "label":    "About me",
+        "title":    "Passionate about building things that matter",
+        "text1":    "I'm a FullStack developer focused on building fast, scalable digital experiences with great UX. I'm passionate about both frontend and backend, and I'm exploring the world of artificial intelligence applied to product development.",
+        "text2":    "I work with JavaScript across the full stack — from React interfaces to Node.js APIs. Always looking to learn something new and apply it to real projects."
+    },
+    "skills": {
+        "label": "What I work with",
+        "title": "Skills & Technologies"
+    },
+    "projects": {
+        "label": "What I've built",
+        "title": "Projects",
+        "demo":  "Demo",
+        "repo":  "Repo",
+        "p1_description": "Fullstack solution for real-time data management.",
+        "p2_description": "Mobile app with authentication and push notifications.",
+        "p3_description": "Dashboard with data visualization and AI integration."
+    },
+    "contact": {
+        "label":       "Get in touch",
+        "title":       "Let's work together",
+        "subtitle":    "Have a project in mind or want to chat? Write to me.",
+        "name":        "Your name",
+        "email":       "Your email",
+        "subject":     "Subject",
+        "message":     "Your message",
+        "send":        "Send message",
+        "sending":     "Sending...",
+        "success":     "Message sent! I'll get back to you soon.",
+        "error":       "Something went wrong. Please try again."
+    },
+    "footer": {
+        "copy": "Built with React & ☕"
+    }
+}

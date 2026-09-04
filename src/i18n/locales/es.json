@@ -1,0 +1,50 @@
+{
+    "nav": {
+        "about":    "Sobre mí",
+        "skills":   "Habilidades",
+        "projects": "Proyectos",
+        "contact":  "Contacto"
+    },
+    "hero": {
+        "greeting":    "Hola, soy",
+        "title":       "Desarrollador FullStack & Entusiasta de IA",
+        "description": "Construyo productos digitales que escalan — del frontend al backend, con un poco de magia de IA.",
+        "cta_projects": "Ver proyectos",
+        "cta_contact":  "Contactame"
+    },
+    "about": {
+        "label":    "Sobre mí",
+        "title":    "Apasionado por construir cosas que importan",
+        "text1":    "Soy un desarrollador FullStack con foco en crear experiencias digitales rápidas, escalables y con buena UX. Me apasiona el frontend tanto como el backend, y estoy explorando el mundo de la inteligencia artificial aplicada al desarrollo de productos.",
+        "text2":    "Trabajo con JavaScript en toda la stack — desde interfaces en React hasta APIs en Node.js. Siempre buscando aprender algo nuevo y aplicarlo en proyectos reales."
+    },
+    "skills": {
+        "label": "Con qué trabajo",
+        "title": "Habilidades & Tecnologías"
+    },
+    "projects": {
+        "label": "Lo que construí",
+        "title": "Proyectos",
+        "demo":  "Demo",
+        "repo":  "Repo",
+        "p1_description": "Solución fullstack para gestión de datos en tiempo real.",
+        "p2_description": "App mobile con autenticación y notificaciones push.",
+        "p3_description": "Dashboard con visualización de datos e integración de IA."
+    },
+    "contact": {
+        "label":       "Hablemos",
+        "title":       "Trabajemos juntos",
+        "subtitle":    "¿Tenés un proyecto en mente o querés charlar? Escribime.",
+        "name":        "Tu nombre",
+        "email":       "Tu email",
+        "subject":     "Asunto",
+        "message":     "Tu mensaje",
+        "send":        "Enviar mensaje",
+        "sending":     "Enviando...",
+        "success":     "¡Mensaje enviado! Te respondo pronto.",
+        "error":       "Algo salió mal. Intentá de nuevo."
+    },
+    "footer": {
+        "copy": "Hecho con React & ☕"
+    }
+}
