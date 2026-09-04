@@ -1,0 +1,24 @@
+// Colores
+$color-bg:        #080810;
+$color-bg-2:      #0f0f1a;
+$color-primary:   #6d28d9;
+$color-secondary: #ec4899;
+$color-accent:    #22d3ee;
+$color-text:      #f1f1f1;
+$color-muted:     #6b7280;
+
+// Gradientes
+$gradient-main:   linear-gradient(135deg, $color-primary, $color-secondary, $color-accent);
+$gradient-text:   linear-gradient(135deg, $color-secondary, $color-accent);
+
+// Tipografía
+$font-sans:  system-ui, 'Segoe UI', Roboto, sans-serif;
+$font-mono:  ui-monospace, Consolas, monospace;
+
+// Espaciado
+$section-padding: 6rem 2rem;
+
+// Breakpoints
+$bp-mobile:  480px;
+$bp-tablet:  768px;
+$bp-desktop: 1024px;

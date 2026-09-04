@@ -1,0 +1,65 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    transition: background 0.4s, backdrop-filter 0.4s, padding 0.4s, border-color 0.4s;
+    border-bottom: 1px solid transparent;
+
+    &.scrolled {
+        background: rgba($color-bg, 0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        padding: 1rem 3rem;
+        border-color: rgba($color-primary, 0.2);
+    }
+
+    &__logo {
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-decoration: none;
+        @include gradient-text;
+        font-family: $font-mono;
+        letter-spacing: -0.05em;
+    }
+
+    &__links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    &__link {
+        color: $color-muted;
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: color 0.3s;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: $gradient-text;
+            transition: width 0.3s;
+        }
+
+        &:hover {
+            color: $color-text;
+
+            &::after { width: 100%; }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.hero {
+    @include flex-center;
+    min-height: 100svh;
+    padding: $section-padding;
+    position: relative;
+
+    &__content {
+        @include flex-center;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        max-width: 800px;
+    }
+
+    &__greeting {
+        font-size: 1.1rem;
+        color: $color-accent;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-family: $font-mono;
+    }
+
+    &__name {
+        font-size: clamp(3rem, 8vw, 7rem);
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        @include gradient-text;
+    }
+
+    &__title {
+        font-size: clamp(1.2rem, 3vw, 1.8rem);
+        font-weight: 400;
+        color: $color-text;
+
+        span {
+            @include gradient-text;
+            font-weight: 700;
+        }
+    }
+
+    &__description {
+        font-size: 1.1rem;
+        color: $color-muted;
+        max-width: 500px;
+        line-height: 1.7;
+    }
+
+    &__cta {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__btn {
+        padding: 0.75rem 2rem;
+        border-radius: 8px;
+        background: $gradient-main;
+        color: $color-text;
+        font-weight: 600;
+        text-decoration: none;
+        transition: opacity 0.3s, transform 0.3s;
+
+        &:hover {
+            opacity: 0.85;
+            transform: translateY(-2px);
+        }
+    }
+
+    &__btnOutline {
+        padding: 0.75rem 2rem;
+        border-radius: 8px;
+        border: 1px solid $color-secondary;
+        color: $color-secondary;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.3s, transform 0.3s;
+
+        &:hover {
+            background: rgba($color-secondary, 0.1);
+            transform: translateY(-2px);
+        }
+    }
+}

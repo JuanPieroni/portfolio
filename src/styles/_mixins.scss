@@ -1,0 +1,24 @@
+@use 'variables' as *;
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin gradient-text {
+    background: $gradient-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@mixin neon-glow($color) {
+    box-shadow: 0 0 10px $color, 0 0 30px rgba($color, 0.4);
+}
+
+@mixin responsive($bp) {
+    @if $bp == mobile  { @media (max-width: $bp-mobile)  { @content; } }
+    @if $bp == tablet  { @media (max-width: $bp-tablet)  { @content; } }
+    @if $bp == desktop { @media (max-width: $bp-desktop) { @content; } }
+}
