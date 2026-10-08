@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+portfolio1A.md
+.portfolio1A.md
 
 node_modules
 dist
@@ -27,3 +29,4 @@ dist-ssr
 .kombai
 .env
 .env.local
+
